@@ -4,7 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 script {
-                  dir("/var/lib/jenkins/workspace/multibranch_demo_main") {
+                  dir("/var/lib/jenkins/workspace/Test") {
                         // Change to the desired working directory
 
                         // Ensure correct ownership and permissions for the Jenkins workspace
