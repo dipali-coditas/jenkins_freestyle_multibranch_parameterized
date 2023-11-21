@@ -4,7 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 script {
-                  dir("/var/lib/jenkins/workspace/Test") {
+                    dir("/var/lib/jenkins/workspace/Test") {
                         // Change to the desired working directory
 
                         // Ensure correct ownership and permissions for the Jenkins workspace
@@ -22,10 +22,10 @@ pipeline {
 
                             // Execute the script
                             sh "bash script.sh"
+                        }
+                    }
                 }
             }
         }
     }
 }
-
-
