@@ -12,7 +12,7 @@ pipeline {
 
                         // Clone the specific branch from the Git repository
                         sh "rm -rf websitedevelopmenttt"
-                        sh "git clone -b main --single-branch https://github.com/dipali-coditas/websitedevelopmenttt.git"
+                        sh "git clone -b test --single-branch https://github.com/dipali-coditas/websitedevelopmenttt.git"
                         
                         // Change to the cloned repository directory
                         dir("websitedevelopmenttt") {
